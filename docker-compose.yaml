@@ -93,6 +93,17 @@ services:
     volumes:
       - ./cognito:/app/.cognito
 
+  api:
+    build:
+      dockerfile: ../api.Dockerfile
+      context: ./api
+    ports:
+      - "3000:3000"
+    networks:
+      - dev_network
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
 volumes:
   postgres_data:
   opensearch-data1:
