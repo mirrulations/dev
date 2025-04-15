@@ -104,6 +104,19 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
 
+  website:
+    build:
+      dockerfile: ../website.Dockerfile
+      context: ./website
+    env_file:
+      - .env
+    environment:
+      - VITE_GATEWAY_API_URL=api:3000
+    ports:
+      - "5500:5500"
+    networks:
+      - dev_network
+
 volumes:
   postgres_data:
   opensearch-data1:
