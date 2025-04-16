@@ -1,0 +1,30 @@
+{
+  "Clients": {
+    "1r4k4b23bva9jj3kxgd28zcc3": {
+      "CallbackURLs": [
+        "http://localhost:3000/callback"
+      ],
+      "ClientId": "1r4k4b23bva9jj3kxgd28zcc3",
+      "ClientName": "MyAppClient",
+      "ClientSecret": "5oolz6muthfeg2309apcivzel",
+      "CreationDate": "2025-04-15T18:12:43.442Z",
+      "ExplicitAuthFlows": [
+        "ALLOW_USER_PASSWORD_AUTH",
+        "ALLOW_REFRESH_TOKEN_AUTH"
+      ],
+      "LastModifiedDate": "2025-04-15T18:12:43.442Z",
+      "LogoutURLs": [
+        "http://localhost:3000/logout"
+      ],
+      "SupportedIdentityProviders": [
+        "COGNITO"
+      ],
+      "TokenValidityUnits": {
+        "AccessToken": "hours",
+        "IdToken": "minutes",
+        "RefreshToken": "days"
+      },
+      "UserPoolId": "local_2EfVJC8K"
+    }
+  }
+}
