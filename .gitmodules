@@ -7,7 +7,7 @@
 	url = git@github.com:mirrulations/transformation_trigger.git
 	branch = main
 [submodule "data-product-kit"]
-	path = data-product-kit
+	path = data_product_kit
 	url = git@github.com:mirrulations/Data-Product-Kit.git
 	branch = main
 [submodule "website"]
