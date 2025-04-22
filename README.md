@@ -7,6 +7,7 @@ Requirements
 
 - Docker & Docker Compose
 - AWS SAM
+- python3
 
 To get started clone this repository and run the following command:
 
