@@ -63,6 +63,8 @@ then run the `createEnvJson.py` file to create a .env.json file for the lambdas 
 
 ### Starting the frontend
 
+- **NOTE**: Make sure you are not in any subfolders of the project for running this. 
+    - if you run into an issue where docker cannot find a .env, you are not in the right spot. 
 - start the frontend with `docker compose up -d --build website cognito`
 
 - open your browser of choice and navigate to `localhost:5500`
