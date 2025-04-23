@@ -48,8 +48,13 @@ then run the `createEnvJson.py` file to create a .env.json file for the lambdas 
 - start the databases with `docker compose up -d --build postgres opensearch-node1 opensearch-node2`
 
 #### Postgres
-1. cd into `data_product_kit/sql`
-2. run `POSTGRES_HOST=localhost python3 ResetDatabase.py`
+1. cd into `data_product_kit`
+2. setup a python virtual environment
+    1. create a virtual environment with `python3 -m venv .venv`
+    2. activate the virtual environment with `source .venv/bin/activate`
+    3. install the requirements file with `pip install -r requirements.txt`
+3. cd into `sql`
+4. run `POSTGRES_HOST=localhost python3 ResetDatabase.py`
     - note: the `POSTGRES_HOST=localhost` is required
 
 #### Opensearch
