@@ -1,16 +1,16 @@
 [submodule "api"]
 	path = api
-	url = git@github.com:mirrulations/API.git
+	url = https://github.com/mirrulations/API.git
 	branch = main
 [submodule "transformation_trigger"]
 	path = transformation_trigger
-	url = git@github.com:mirrulations/transformation_trigger.git
+	url = https://github.com/mirrulations/transformation_trigger.git
 	branch = main
 [submodule "data-product-kit"]
-	path = data-product-kit
-	url = git@github.com:mirrulations/Data-Product-Kit.git
+	path = data_product_kit
+	url = https://github.com/mirrulations/Data-Product-Kit.git
 	branch = main
 [submodule "website"]
 	path = website
-	url = git@github.com:mirrulations/mirrulations-website.git
+	url = https://github.com/mirrulations/mirrulations-website.git
 	branch = main
