@@ -42,6 +42,8 @@ AWS_DEFAULT_REGION=us-east-1
 then run the `createEnvJson.py` file to create a .env.json file for the lambdas to use. 
 
 
+### **EACH OF THE FOLLOWING STEPS ASSUMES THAT YOU ARE AT THE ROOT/TOP LEVEL OF THE PROJECT**
+
 ### Initializing the Databases
 **THIS ONLY NEEDS TO BE DONE ON THE INITIAL SETUP**
 
