@@ -3,10 +3,10 @@
 
 ## Setup
 
-Requirements 
+Requirements
 
 - Docker & Docker Compose
-- AWS SAM
+- [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html)
 - python3
 
 To get started clone this repository and run the following command:
